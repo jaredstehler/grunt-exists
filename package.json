@@ -1,0 +1,29 @@
+{
+  "name": "grunt-exists",
+  "description": "Grunt task for validating if file(s) exist.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jaredstehler/grunt-exists",
+  "author": {
+    "name": "Jared Stehler",
+    "email": "jared.stehler@gmail.com",
+    "url": "http://abstractbits.blogspot.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredstehler/grunt-exists.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaredstehler/grunt-exists/issues"
+  },
+  "main": "grunt.js",
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.3"
+  },
+  "keywords": [
+    "gruntplugin",
+    "exists"
+  ]
+}
