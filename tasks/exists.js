@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     var existsSync = fs.existsSync || path.existsSync;
 
     grunt.registerMultiTask('exists', 'File Existence', function() {
-        grunt.utils._.each(this.data, function(file) {
+        grunt.util._.each(this.data, function(file) {
             if (!existsSync(file)) {
                 grunt.fatal("Required file [" + file + "] doesn't exist.");
             } else {
